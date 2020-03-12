@@ -7,8 +7,11 @@ steps:
   image: alpine
   commands:
   - echo hello world
-
 - name: fr
   image: alpine
   commands:
   - echo bonjour monde
+- name: fr
+  image: alpine
+  commands:
+  - echo tianhan1939
