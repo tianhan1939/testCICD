@@ -38,3 +38,5 @@ trigger:
   - master
   event:
   - cron
+  cron:
+  - cron_test
