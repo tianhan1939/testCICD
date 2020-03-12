@@ -11,7 +11,7 @@ steps:
   image: alpine
   commands:
   - echo bonjour monde
-- name: fr
+- name: cn
   image: alpine
   commands:
   - echo tianhan1939
