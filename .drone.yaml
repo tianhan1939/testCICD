@@ -15,3 +15,6 @@ steps:
   image: alpine
   commands:
   - echo tianhan1939
+trigger:
+  branch:
+  - develop
