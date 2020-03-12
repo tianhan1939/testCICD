@@ -18,3 +18,23 @@ steps:
 trigger:
   branch:
   - develop
+
+---
+kind: pipeline
+type: kubernetes
+name: cron_test
+
+steps:
+- name: cron_step1
+  image: alpine
+  commands:
+  - echo hello world
+- name: cron_step2
+  image: alpine
+  commands:
+  - echo bonjour monde
+trigger:
+  branch:
+  - master
+  event:
+  - cron
